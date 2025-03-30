@@ -22,22 +22,8 @@ Big O notation describes the **efficiency** of an algorithm in terms of **time c
 | O(n log n) | Linearithmic Time | Merge Sort, Quick Sort |
 | O(n²) | Quadratic Time | Bubble Sort |
 
----
-
-## **🎨 Live Visualization (HTML + CSS + JS)**
-🎥 **Check out our interactive visualizations:** [Big O Playground](https://your-live-demo-link.com)
-
-### **📄 How to Run Locally**
-Clone this repository and open `index.html` in your browser:
-```bash
-git clone https://github.com/yourusername/big-o-visuals.git
-cd big-o-visuals
-open index.html
-```
 
 ---
-
-## **💡 Creative Implementations**
 
 ### **O(1) - Constant Time**
 🔹 **Example:** Accessing an array index in JavaScript.
@@ -45,7 +31,6 @@ open index.html
 const arr = [10, 20, 30];
 console.log(arr[1]); // O(1)
 ```
-🎨 **Visual:** Clicking a button retrieves a stored value instantly.
 
 ---
 
@@ -62,7 +47,6 @@ function binarySearch(arr, target) {
     return -1;
 }
 ```
-🎨 **Visual:** A **tree animation** showing the search narrowing.
 
 ---
 
@@ -71,7 +55,6 @@ function binarySearch(arr, target) {
 ```js
 arr.forEach(item => console.log(item)); // O(n)
 ```
-🎨 **Visual:** Progress bar filling up as the loop iterates.
 
 ---
 
@@ -84,7 +67,6 @@ function mergeSort(arr) {
     return merge(mergeSort(arr.slice(0, mid)), mergeSort(arr.slice(mid)));
 }
 ```
-🎨 **Visual:** Blocks splitting and merging back into order.
 
 ---
 
